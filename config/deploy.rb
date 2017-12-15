@@ -1,10 +1,10 @@
 # config valid only for current version of Capistrano
 lock '3.10.1'
 
-set :application, 'hogehoge'
+set :application, 'ansible_test'
 set :repo_url, 'git@github.com:hamayuzin/ansible_deploy_test_app.git'
 set :branch, 'master'
-set :deploy_to, '/var/www/hogehoge'
+set :deploy_to, '/var/www/ansible_test'
 set :keep_releases, 3
 set :rbenv_type, :user
 set :rbenv_ruby, '2.4.1'
