@@ -2,7 +2,7 @@
 lock '3.10.1'
 
 set :application, 'hogehoge'
-set :repo_url, 'git@github.com:hogehoge/fugauga.git'
+set :repo_url, 'git@github.com:hamayuzin/ansible_deploy_test_app.git'
 set :branch, 'master'
 set :deploy_to, '/var/www/hogehoge'
 set :keep_releases, 3
